@@ -16,7 +16,7 @@ export default function Home() {
           zoomOffset: -1,
           maxZoom: 18,
           id: "mapbox/streets-v11",
-          accessToken: process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN,
+      
         }
       ).addTo(map);
     });
